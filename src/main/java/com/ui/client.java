@@ -23,6 +23,7 @@ public class client {
             IAccountService as = (IAccountService)BeanFactory.getBean("accountService");
             System.out.println(as);
             as.saveAccount();
+
         }
 
 

@@ -28,6 +28,7 @@ public class BeanFactory {
     // 定义一个Map 用于存放我们要创建的对象  将其称之为容器
     private static Map<String,Object>beans;
 
+
     // 使用静态代码块为Properti对象赋值
     static{
         try {
